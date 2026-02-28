@@ -1,0 +1,59 @@
+{
+  "name": "lobster-console",
+  "displayName": "Lobster",
+  "description": "Lobster Console",
+  "version": "0.0.1",
+  "publisher": "gguf",
+  "author": {
+    "name": "gguf"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "icon": "assets/images/logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mochiyaki/lobster.git"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "lobsterGame.openGame",
+        "title": "Lobster Game: Open Game",
+        "icon": "$(game)"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./ && npm run build-webview",
+    "compile-webpack": "tsc -p ./ && webpack --mode production",
+    "build-webview": "node build-webview.js",
+    "watch": "tsc -watch -p ./",
+    "webpack": "webpack --mode development",
+    "webpack-dev": "webpack --mode development --watch",
+    "pretest": "npm run compile"
+  },
+  "devDependencies": {
+    "@types/node": "16.x",
+    "@types/three": "^0.160.0",
+    "@types/vscode": "^1.74.0",
+    "esbuild": "^0.19.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@esbuild/win32-x64": "^0.27.3",
+    "three": "^0.160.0"
+  }
+}

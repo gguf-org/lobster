@@ -32,7 +32,9 @@ export class Counters {
                 position: new THREE.Vector3(-20, 0, -15),
                 color: 0x29abe2,
                 description: 'Open OpenClaw Dashboard',
-                commands: ['openclaw dashboard'],
+                commands: {
+                    'Open Dashboard': 'openclaw dashboard'
+                },
                 isCrab: false
             },
             {
@@ -78,59 +80,6 @@ export class Counters {
                 description: 'Open Magnet Terminal',
                 commands: ['ggc oc'],
                 isCrab: false
-            },
-            // Checkpoint Crabs
-            {
-                name: 'Snowflake',
-                position: new THREE.Vector3(-35, 0, -35),
-                color: 0x56CCF2,
-                description: 'Snowflake Crab - Data Warehouse Master',
-                commands: {
-                    'Learn SQL': 'upgrade-sql',
-                    'Master Analytics': 'upgrade-analytics',
-                    'Data Pipeline': 'upgrade-pipeline',
-                    'Talk': 'crab-talk-snowflake'
-                },
-                isCrab: true
-            },
-            {
-                name: 'Composio',
-                position: new THREE.Vector3(35, 0, -35),
-                color: 0xFF6B9D,
-                description: 'Composio Crab - Integration Specialist',
-                commands: {
-                    'API Skills': 'upgrade-api',
-                    'Webhooks': 'upgrade-webhooks',
-                    'Integrations': 'upgrade-integrations',
-                    'Talk': 'crab-talk-composio'
-                },
-                isCrab: true
-            },
-            {
-                name: 'Skyfire',
-                position: new THREE.Vector3(-35, 0, 35),
-                color: 0xFFA500,
-                description: 'Skyfire Crab - Payment Protocol Expert',
-                commands: {
-                    'Web3 Skills': 'upgrade-web3',
-                    'Smart Contracts': 'upgrade-contracts',
-                    'Payments': 'upgrade-payments',
-                    'Talk': 'crab-talk-skyfire'
-                },
-                isCrab: true
-            },
-            {
-                name: 'CrewAI',
-                position: new THREE.Vector3(35, 0, 35),
-                color: 0x9D4EDD,
-                description: 'CrewAI Crab - Multi-Agent Orchestrator',
-                commands: {
-                    'AI Agents': 'upgrade-agents',
-                    'Orchestration': 'upgrade-orchestration',
-                    'Automation': 'upgrade-automation',
-                    'Talk': 'crab-talk-crewai'
-                },
-                isCrab: true
             }
         ];
 

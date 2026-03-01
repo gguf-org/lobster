@@ -1,6 +1,6 @@
-# 🦞 Lobster Game Extension
+# 🦞 Lobster Console 🎮
 
-A VSCode extension that provides an immersive 3D game environment where you control a lobster in an office lobby. Walk to different command counters and execute terminal commands by interacting with them!
+A playful extension that provides an immersive 3D game environment where you control a lobster in an office lobby. Walk to different command counters and execute terminal commands by interacting with them!
 
 > **Status**: ✅ Built and Ready to Launch!
 
@@ -16,18 +16,12 @@ A VSCode extension that provides an immersive 3D game environment where you cont
 - **Interactive Gameplay**: Walk around, discover counters, press E to execute commands
 - **VSCode Integration**: Commands execute directly in VSCode's integrated terminal
 
-## 🦞 Lobster Office Adventure (part 1 of the project)
-
-A 3D underwater action game built with Three.js and TypeScript where you play as a lobster defending sea creatures from enemy attacks.
-
 ![screenshot](https://raw.githubusercontent.com/mochiyaki/lobster-office-adventure/master/demo.png)
-
-* play the game via [this link](https://mochiyaki.github.io/app3/); production demo (part 2 of the project) please see the vscode extension from [marketplace](https://marketplace.visualstudio.com/items?itemName=gguf.lobster-console) or compatible IDE [open-vsx](https://open-vsx.org/extension/gguf/lobster-console)
 
 ## 🚀 Quick Start
 
 ```bash
-cd lobster-game-extension
+cd lobster
 npm install
 npm run compile
 ```
@@ -50,14 +44,14 @@ Then press **F5** in VSCode to launch the extension!
            Z (North)
               ▲
               │
-    🔧 Setup  │  🌐 Gateway
+       Setup  │  🌐 Gateway
   (Orange)    │   (Green)
               │
-   ──────── 🚪 ────────► X (East)
+    ──────── 🚪 ────────► X (East)
           Terminal
           (Gold)
               │
-  📊 Dashboard│  ✓ Checker
+     Dashboard│  ✓ Checker
     (Blue)    │  (Purple)
               │
 ```

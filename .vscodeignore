@@ -9,3 +9,4 @@ webpack.config.js
 build-webview.js
 *.md
 !README.md
+!CHANGELOG.md

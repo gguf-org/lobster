@@ -22,7 +22,7 @@ A 3D underwater action game built with Three.js and TypeScript where you play as
 
 ![screenshot](https://raw.githubusercontent.com/mochiyaki/lobster-office-adventure/master/demo.png)
 
-* play the game via [this link](https://mochiyaki.github.io/app3/); production demo please see the vscode extension from (marketplace)[https://marketplace.visualstudio.com/items?itemName=gguf.lobster-console] or compatible IDE [open-vsx](https://open-vsx.org/extension/gguf/lobster-console)
+* play the game via [this link](https://mochiyaki.github.io/app3/); production demo (part 2 of the project) please see the vscode extension from [marketplace](https://marketplace.visualstudio.com/items?itemName=gguf.lobster-console) or compatible IDE [open-vsx](https://open-vsx.org/extension/gguf/lobster-console)
 
 ## 🚀 Quick Start
 

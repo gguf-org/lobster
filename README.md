@@ -16,7 +16,7 @@ A playful extension that provides an immersive 3D game environment where you con
 - **Interactive Gameplay**: Walk around, discover counters, press E to execute commands
 - **VSCode Integration**: Commands execute directly in VSCode's integrated terminal
 
-![screenshot](https://raw.githubusercontent.com/mochiyaki/lobster-office-adventure/master/demo.png)
+![screenshot](https://raw.githubusercontent.com/mochiyaki/lobster-office-adventure/master/pops.png)
 
 ## 🚀 Quick Start
 
